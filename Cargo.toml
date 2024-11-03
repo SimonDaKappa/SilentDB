@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "data_encoding",
+    "silentdb"
+]
+
+# Optional: Set default members
+default-members = ["silentdb"]
+
+# Optional: Set workspace-wide dependencies
+[workspace.dependencies]
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+byteorder = "1.4"
+rand = "0.8.5"
+hex = "0.4.3"

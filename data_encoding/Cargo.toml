@@ -1,0 +1,11 @@
+[package]
+name = "silentdb-data-encoding"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror.workspace = true
+serde.workspace = true
+byteorder.workspace = true
+rand.workspace = true
+hex.workspace = true
